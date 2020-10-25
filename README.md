@@ -85,7 +85,7 @@ I think the rest is pretty self explanatory.
 Once you're done training, run the eval script or just run the entire bot:
 
 ```bash
-eval.py eval.py <eval-stock> [--window-size=<window-size>] [--model-name=<model-name>] [--run-bot] [--db-name=<db-name>] [--stock-name=<stock-ticker>] [--natural-lang] [--debug] [--mongo]
+python3 eval.py <eval-stock> [--window-size=<window-size>] [--model-name=<model-name>] [--run-bot] [--db-name=<db-name>] [--stock-name=<stock-ticker>] [--natural-lang] [--debug] [--mongo]
 ```
 
 
